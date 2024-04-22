@@ -1,0 +1,1 @@
+SELECT publish AS 出版社, category_id, COUNT(*) AS 登録数 FROM books GROUP BY publish, category_id HAVING COUNT(*) < 3;

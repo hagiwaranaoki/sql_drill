@@ -1,0 +1,7 @@
+select + from books:
+
+・[*]が[+]になっている
+・[;]が[:]になっている
+
+正しくは
+select * from books;

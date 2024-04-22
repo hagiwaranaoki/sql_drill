@@ -1,0 +1,7 @@
+SELECT page_id, SUM(*) FROM access_log ORDER BY page_id;
+
+・アクセス数を数えるので、合計のsumではなく、数を数える用のCOUNTを使用
+・ORDER BY句はソートをするものなので、グループ化はGROUP BY句を使用
+
+正しくは
+SELECT page_id, COUNT(*) FROM access_log GROUP BY page_id;

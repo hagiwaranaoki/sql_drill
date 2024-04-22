@@ -1,0 +1,7 @@
+SELECT ALL class, depart_id FROM employee;
+
+・重複なしなので、「ALL」ではなく「DISTINCT」を使う
+・重複なしで役職を取得するので、depart_idは不要。
+
+正しくは
+SELECT DISTINCT class FROM employee;

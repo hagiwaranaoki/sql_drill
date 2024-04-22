@@ -1,0 +1,1 @@
+SELECT u.l_name AS 名字, u.f_name AS 名前, COUNT(r.id) AS 貸出数 FROM rental AS r INNER JOIN usr AS u ON r.user_id=r.user_id WHERE r.returned=0 GROUP BY r.user_id , u.l_name, u.f_name HAVING COUNT(r.id) > 0 ORDER BY COUNT(r.id) DESC;

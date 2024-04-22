@@ -1,0 +1,7 @@
+SELECT page_id, referer, ip_address FROM access_log ORDER BY access_date ASC LIMIT 10, 0;
+
+・0と10が逆。10,0だと先頭から10件目スタートの0件表示になる
+・ASCではなくDESCを使うASCは古い順に表示するものであるため、新しいものから取得はDESC
+
+正しくは
+SELECT page_id, referer, ip_address FROM access_log ORDER BY access_date DESC LIMIT 0, 10;

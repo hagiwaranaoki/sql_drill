@@ -1,0 +1,6 @@
+SELECTS title publish FROM books;
+
+・「SELECT」が「SELECTS」になっていること
+・titleとpublishをつなぐカンマがないこと
+
+SELECT title, publish FROM books;
