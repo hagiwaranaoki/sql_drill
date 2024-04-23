@@ -1,0 +1,2 @@
+Query OK, 17 rows affected (0.023 sec)
+Records: 17  Duplicates: 0  Warnings: 0
