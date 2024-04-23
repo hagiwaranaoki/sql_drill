@@ -1,0 +1,11 @@
+SELECT a.name_kana FROM author AS a
+UNION ALL SELECT u.l_name_kana, u.f_name_kana FROM usr AS u
+ORDER BY 1 DESC;
+
+・重複を含まない場合はUNION ALLではなく、UNION
+・氏名カナについて降順なので、u.l_name_kana, u.f_name_kanaをCONCATで括る
+
+正しくは
+SELECT a.name_kana FROM author AS a
+UNION SELECT CONCAT(u.l_name_kana, u.f_name_kana) FROM usr AS u
+ORDER BY 1 DESC;

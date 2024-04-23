@@ -1,0 +1,3 @@
+SELECT CONCAT(u.l_name, u.f_name) AS 氏名
+FROM usr u
+INNER JOIN quest q ON CONCAT(u.l_name, u.f_name) = q.name;
