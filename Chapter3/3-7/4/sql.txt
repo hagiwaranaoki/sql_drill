@@ -1,0 +1,20 @@
+DELETE
+  books
+WHERE
+    category_id='Z9999'
+  AND
+    category_id IS NULL
+;
+
+・DELETEではなくDELETE FROM
+・「AND」ではなく「OR」
+
+正しくは
+
+DELETE FROM
+  books
+WHERE
+    category_id='Z9999'
+  OR
+    category_id IS NULL
+;
