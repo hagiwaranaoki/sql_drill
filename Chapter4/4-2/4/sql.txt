@@ -1,0 +1,25 @@
+CREATE INDEX
+  ind_usr
+IN
+  usr
+  (
+    prefecture
+    city
+    o_address
+  )
+;
+
+・INではなくON
+・カラム名の後にカンマがない
+
+正しくは
+CREATE INDEX
+  ind_usr
+ON
+  usr
+  (
+    prefecture,
+    city,
+    o_address
+  )
+;
