@@ -1,0 +1,15 @@
+ALTER TABLE
+  access_log
+MODIFY WITH
+  referer, VARCHAR(200),NULL
+;
+
+・MODIFYに対してWITHはいらない
+・カラム再定義場所に対してカンマはいらない
+
+正しくは
+ALTER TABLE
+  access_log
+MODIFY
+  referer VARCHAR(200) NULL
+;
