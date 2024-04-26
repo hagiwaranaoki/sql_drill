@@ -10,5 +10,5 @@ CREATE TABLE
 ALTER TABLE
   sales
 ADD
-  PRIMARY KEy (s_id, s_date)
+  PRIMARY KEY (s_id, s_date)
 ;
