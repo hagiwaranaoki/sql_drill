@@ -6,7 +6,8 @@ SELECT
     ELSE THEN '一般職'
   END AS 役職クラス
 FROM
-  employee;
+  employee
+;
 
 ・CASEの中はWHEREではなくWHEN
 ・ELSEにTHENはいらない
@@ -20,4 +21,5 @@ SELECT
     ELSE '一般職'
   END AS 役職クラス
 FROM
-  employee;
+  employee
+;

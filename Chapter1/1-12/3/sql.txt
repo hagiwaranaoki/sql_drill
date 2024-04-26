@@ -1,1 +1,10 @@
-SELECT author_id AS 著者id, COUNT(isbn) AS 書籍数 FROM author_books GROUP BY author_id HAVING COUNT(isbn) >= 3;
+SELECT 
+  author_id AS 著者id, 
+  COUNT(isbn) AS 書籍数 
+FROM 
+  author_books 
+GROUP BY 
+  author_id 
+HAVING 
+  COUNT(isbn) >= 3
+;

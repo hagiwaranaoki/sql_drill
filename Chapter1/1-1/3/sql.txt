@@ -1,1 +1,5 @@
-SELECT * FROM SALES;
+SELECT
+  * 
+FROM 
+  SALES
+;

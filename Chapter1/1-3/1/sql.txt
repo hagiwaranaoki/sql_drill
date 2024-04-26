@@ -1,1 +1,4 @@
-SELECT DISTINCT prefecture FROM quest;
+SELECT DISTINCT
+  prefecture 
+FROM 
+  quest;

@@ -1,1 +1,8 @@
-SELECT publish, MAX(price) FROM books GROUP BY publish;
+SELECT 
+  publish, 
+  MAX(price) 
+FROM 
+  books 
+GROUP BY 
+  publish
+;

@@ -1,1 +1,6 @@
-SELECT p_name, price FROM product;
+SELECT
+  p_name,
+  price 
+FROM 
+  product
+;

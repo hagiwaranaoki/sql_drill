@@ -1,7 +1,26 @@
-SELECT prefecture, sex, age, AVG(answer1) IS 評価平均 FROM quest GROUP BY prefecture, sex;
+SELECT 
+  prefecture, 
+  sex, 
+  age, 
+  AVG(answer1) IS 評価平均 
+FROM 
+  quest 
+GROUP BY 
+  prefecture, 
+  sex
+;
 
 ・ageはグループ化キーにないため、不要
 ・列名指定がISになっていたので、ASにする
 
 正しくは
-SELECT prefecture, sex, AVG(answer1) AS 評価平均 FROM quest GROUP BY prefecture, sex;
+SELECT 
+  prefecture, 
+  sex, 
+  AVG(answer1) AS 評価平均 
+FROM 
+  quest 
+GROUP BY 
+  prefecture, 
+  sex
+;

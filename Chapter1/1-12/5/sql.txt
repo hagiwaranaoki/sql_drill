@@ -1,7 +1,29 @@
-SELECT depart_id, COUNT(*) FROM employee WHERE sex = 2 ORDER BY depart_id WHERE COUNT(*) >= 3;
+SELECT 
+  depart_id, 
+  COUNT(*) 
+FROM 
+  employee 
+WHERE 
+  sex = 2 
+ORDER BY 
+  depart_id 
+WHERE 
+  COUNT(*) >= 3
+;
 
 ・ORDER BYではなく、グループ化はGROUP BYを使う
 ・WHEREではなく、条件を付けるにはHAVINGを使う
 
 正しくは
-SELECT depart_id, COUNT(*) FROM employee WHERE sex = 2 GROUP BY depart_id HAVING COUNT(*) >= 3;
+SELECT 
+  depart_id, 
+  COUNT(*) 
+FROM 
+  employee 
+WHERE 
+  sex = 2 
+GROUP BY 
+  depart_id 
+HAVING 
+  COUNT(*) >= 3
+;

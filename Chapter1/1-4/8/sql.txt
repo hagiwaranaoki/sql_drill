@@ -1,7 +1,23 @@
-SELECT title publish price FROM books WHERE price <= 5000;
+SELECT 
+  title 
+  publish 
+  price 
+FROM 
+  books 
+WHERE 
+  price <= 5000
+;
 
 ・列をカンマで区切ってない
 ・未満なので、<=ではなく<
 
 正しくは
-SELECT title, publish, price FROM books WHERE price < 5000;
+SELECT 
+  title, 
+  publish, 
+  price 
+FROM 
+  books 
+WHERE 
+  price < 5000
+;

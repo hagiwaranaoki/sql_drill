@@ -1,7 +1,25 @@
-SELECT depart_id, class, CONCAT('l_name', 'f_name') AS 氏名 FROM employee ORDER BY depart_id, class DESC;
+SELECT 
+  depart_id, 
+  class, 
+  CONCAT('l_name', 'f_name') AS 氏名 
+FROM 
+  employee 
+ORDER BY 
+  depart_id, 
+  class DESC
+;
 
 ・CONCATの中のカラム名には''はいらない
 ・ORDER BYは二つともに並び順の指定が必要なので、depart_idのあとにもDESCを追加
 
 正しくは
-SELECT depart_id, class, CONCAT(l_name, f_name) AS 氏名 FROM employee ORDER BY depart_id DESC, class DESC;
+SELECT 
+  depart_id, 
+  class, 
+  CONCAT(l_name, f_name) AS 氏名 
+FROM 
+  employee 
+ORDER BY 
+  depart_id DESC, 
+  class DESC
+;

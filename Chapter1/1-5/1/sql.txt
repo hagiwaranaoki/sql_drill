@@ -1,1 +1,6 @@
-SELECT * FROM author WHERE name like '山田%';
+SELECT 
+  * 
+FROM 
+  author 
+WHERE 
+  name like '山田%';

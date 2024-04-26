@@ -1,7 +1,19 @@
-SELECT title, FROM books WHERE publish LIKE '_社';
+SELECT 
+  title, 
+FROM 
+  books 
+WHERE 
+  publish LIKE '_社'
+;
 
-・列が一つなのに[,]をつけている。
+・カラムが一つなのに[,]をつけている。
 ・_社だと社の前に一文字のみ入っている状態を示す。最後が社を探すのであれば「%社」が正解
 
 正しくは
-SELECT title FROM books WHERE publish LIKE '%社';
+SELECT 
+  title 
+FROM 
+  books 
+WHERE 
+  publish LIKE '%社'
+;

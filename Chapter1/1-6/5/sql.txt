@@ -1,7 +1,27 @@
-SELECT isbn, title FROM books WHERE publish='秀和システム' AND publish='日経BP' OR price < 3000;
+SELECT 
+  isbn, 
+  title 
+FROM 
+  books 
+WHERE 
+    publish='秀和システム' 
+  AND 
+    publish='日経BP' 
+  OR 
+    price < 3000
+;
 
 ・orとandが逆
 ・orを使う際には()でくくらなければならない
 
 正しくは
-SELECT isbn, title FROM books WHERE (publish='秀和システム' OR publish='日経BP') AND price < 3000;
+SELECT 
+  isbn, 
+  title 
+FROM 
+  books 
+WHERE 
+    (publish='秀和システム' OR publish='日経BP') 
+  AND 
+    price < 3000
+;
