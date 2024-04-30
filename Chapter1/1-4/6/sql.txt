@@ -1,8 +1,8 @@
 SELECT 
-  user_id, 
-  isbn 
+	user_id, 
+	isbn 
 FROM 
-  rental 
+	rental 
 WHERE 
-  returned=0
+	returned=0
 ;

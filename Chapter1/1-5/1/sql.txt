@@ -1,6 +1,7 @@
 SELECT 
-  * 
+	* 
 FROM 
-  author 
+	author 
 WHERE 
-  name like '山田%';
+	name like '山田%'
+;

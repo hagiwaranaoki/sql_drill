@@ -1,11 +1,11 @@
 ALTER TABLE
-  usr
+	usr
 ADD
-  sex VARCHAR(5) DEFAULT '男'
+	sex VARCHAR(5) DEFAULT '男'
 AFTER
-  f_name_kana,
+	f_name_kana,
 ADD
-  job VARCHAR(30)
+	job VARCHAR(30)
 AFTER
-  sex
+	sex
 ;

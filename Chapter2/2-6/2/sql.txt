@@ -1,10 +1,10 @@
-  SELECT 
-    u.l_name || u.f_name 
-  FROM 
-    usr AS u 
+	SELECT 
+		u.l_name || u.f_name 
+	FROM 
+		usr AS u 
 EXCEPT 
-  SELECT 
-    q.name 
-  FROM 
-    quest AS q
+	SELECT 
+		q.name 
+	FROM 
+		quest AS q
 ;

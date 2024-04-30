@@ -1,9 +1,9 @@
 SELECT 
-  name, 
-  sex, 
-  prefecture 
+	name, 
+	sex, 
+	prefecture 
 FROM 
-  quest 
+	quest 
 WHERE 
-  age BETWEEN 30 AND 39
+	age BETWEEN 30 AND 39
 ;

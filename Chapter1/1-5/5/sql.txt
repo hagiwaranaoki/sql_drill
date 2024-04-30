@@ -1,9 +1,9 @@
 SELECT 
-  title, 
+	title, 
 FROM 
-  books 
+	books 
 WHERE 
-  publish LIKE '_社'
+	publish LIKE '_社'
 ;
 
 ・カラムが一つなのに[,]をつけている。
@@ -11,9 +11,9 @@ WHERE
 
 正しくは
 SELECT 
-  title 
+	title 
 FROM 
-  books 
+	books 
 WHERE 
-  publish LIKE '%社'
+	publish LIKE '%社'
 ;

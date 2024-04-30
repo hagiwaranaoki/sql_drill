@@ -1,5 +1,5 @@
 SELECT DISTINCT 
-  referer 
+	referer 
 FROM 
-  access_log
+	access_log
 ;

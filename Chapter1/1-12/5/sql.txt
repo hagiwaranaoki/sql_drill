@@ -1,14 +1,14 @@
 SELECT 
-  depart_id, 
-  COUNT(*) 
+	depart_id, 
+	COUNT(*) 
 FROM 
-  employee 
+	employee 
 WHERE 
-  sex = 2 
+	sex = 2 
 ORDER BY 
-  depart_id 
+	depart_id 
 WHERE 
-  COUNT(*) >= 3
+	COUNT(*) >= 3
 ;
 
 ・ORDER BYではなく、グループ化はGROUP BYを使う
@@ -16,14 +16,14 @@ WHERE
 
 正しくは
 SELECT 
-  depart_id, 
-  COUNT(*) 
+	depart_id, 
+	COUNT(*) 
 FROM 
-  employee 
+	employee 
 WHERE 
-  sex = 2 
+	sex = 2 
 GROUP BY 
-  depart_id 
+	depart_id 
 HAVING 
-  COUNT(*) >= 3
+	COUNT(*) >= 3
 ;

@@ -1,7 +1,7 @@
 ALTER TABLE
-  employee
+	employee
 MODIFY
-  l_name VARCHAR(50) NOT NULL,
+	l_name VARCHAR(50) NOT NULL,
 MODIFY
-  f_name VARCHAR(50) NOT NULL
+	f_name VARCHAR(50) NOT NULL
 ;

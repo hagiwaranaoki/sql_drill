@@ -1,8 +1,8 @@
 INSERT INTO
-  depart
+	depart
 VALUES
-  (
-    'E03',
-    '第三営業部'
-  )
+	(
+		'E03',
+		'第三営業部'
+	)
 ;

@@ -1,9 +1,9 @@
 SELECT 
-  isbn, 
-  title, 
-  price 
+	isbn, 
+	title, 
+	price 
 FROM 
-  books 
+	books 
 WHERE 
-  title LIKE 'SQL__'
+	title LIKE 'SQL__'
 ;

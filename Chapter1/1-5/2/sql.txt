@@ -1,7 +1,7 @@
 SELECT 
-  name 
+	name 
 FROM 
-  quest 
+	quest 
 WHERE 
-  name NOT LIKE '%子'
+	name NOT LIKE '%子'
 ;

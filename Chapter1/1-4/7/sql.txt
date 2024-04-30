@@ -1,6 +1,6 @@
 SELECT 
-  answer2 
+	answer2 
 FROM 
-  quest 
+	quest 
 WHERE 
-  answer2 IS NOT NULL;
+	answer2 IS NOT NULL;

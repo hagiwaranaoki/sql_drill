@@ -1,13 +1,13 @@
 SELECT 
-  prefecture, 
-  sex, 
-  age, 
-  AVG(answer1) IS 評価平均 
+	prefecture, 
+	sex, 
+	age, 
+	AVG(answer1) IS 評価平均 
 FROM 
-  quest 
+	quest 
 GROUP BY 
-  prefecture, 
-  sex
+	prefecture, 
+	sex
 ;
 
 ・ageはグループ化キーにないため、不要
@@ -15,12 +15,12 @@ GROUP BY
 
 正しくは
 SELECT 
-  prefecture, 
-  sex, 
-  AVG(answer1) AS 評価平均 
+	prefecture, 
+	sex, 
+	AVG(answer1) AS 評価平均 
 FROM 
-  quest 
+	quest 
 GROUP BY 
-  prefecture, 
-  sex
+	prefecture, 
+	sex
 ;

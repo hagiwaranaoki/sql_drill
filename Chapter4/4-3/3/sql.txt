@@ -1,7 +1,7 @@
 ALTER TABLE
-  books
+	books
 ADD
-  sales INT
+	sales INT
 AFTER
-  category_id
+	category_id
 ;

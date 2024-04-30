@@ -1,9 +1,9 @@
 ALTER TABLE
-  employee
+	employee
 ADD TO
-  email VARCHAR(255) NOT NULL
+	email VARCHAR(255) NOT NULL
 BEFORE
-  depart_id
+	depart_id
 ;
 
 ・ADD TOのTOはいらない
@@ -11,9 +11,9 @@ BEFORE
 
 正しくは
 ALTER TABLE
-  employee
+	employee
 ADD
-  email VARCHAR(255) NOT NULL
+	email VARCHAR(255) NOT NULL
 AFTER
-  depart_id
+	depart_id
 ;

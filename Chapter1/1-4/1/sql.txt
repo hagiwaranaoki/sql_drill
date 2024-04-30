@@ -1,8 +1,8 @@
 SELECT 
-  answer1, 
-  answer2 
+	answer1, 
+	answer2 
 FROM 
-  quest 
+	quest 
 WHERE 
-  age >= 20
+	age >= 20
 ;

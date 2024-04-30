@@ -1,9 +1,9 @@
 SELECT 
-  sex, 
-  MAX(age), 
-  MIN(age) 
+	sex, 
+	MAX(age), 
+	MIN(age) 
 FROM 
-  quest 
+	quest 
 GROUP BY 
-  sex
+	sex
 ;

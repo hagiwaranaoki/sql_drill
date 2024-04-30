@@ -1,7 +1,7 @@
 ALTER TABLE
-  access_log
+	access_log
 MODIFY WITH
-  referer, VARCHAR(200),NULL
+	referer, VARCHAR(200),NULL
 ;
 
 ・MODIFYに対してWITHはいらない
@@ -9,7 +9,7 @@ MODIFY WITH
 
 正しくは
 ALTER TABLE
-  access_log
+	access_log
 MODIFY
-  referer VARCHAR(200) NULL
+	referer VARCHAR(200) NULL
 ;

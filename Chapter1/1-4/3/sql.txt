@@ -1,9 +1,9 @@
 SELECT 
-  l_name,
-  f_name,
-  email 
+	l_name,
+	f_name,
+	email 
 FROM 
-  usr 
+	usr 
 WHERE 
-  prefecture <> '東京都'
+	prefecture <> '東京都'
 ;

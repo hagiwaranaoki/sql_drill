@@ -1,5 +1,5 @@
 ALTER TABLE
-  books
+	books
 MODIFY
-  publish VARCHAR(100) NULL
+	publish VARCHAR(100) NULL
 ;

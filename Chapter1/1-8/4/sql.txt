@@ -1,13 +1,13 @@
 SELECT 
-  page_id, 
-  referer, 
-  ip_address 
+	page_id, 
+	referer, 
+	ip_address 
 FROM 
-  access_log 
+	access_log 
 ORDER BY 
-  access_date ASC 
+	access_date ASC 
 LIMIT 
-  10, 0
+	10, 0
 ;
 
 ・0と10が逆。10,0だと先頭から10件目スタートの0件表示になる
@@ -15,13 +15,13 @@ LIMIT
 
 正しくは
 SELECT 
-  page_id, 
-  referer, 
-  ip_address 
+	page_id, 
+	referer, 
+	ip_address 
 FROM 
-  access_log 
+	access_log 
 ORDER BY 
-  access_date DESC 
+	access_date DESC 
 LIMIT 
-  0, 10
+	0, 10
 ;

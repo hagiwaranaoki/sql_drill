@@ -1,5 +1,5 @@
 ALTER TABLE
-  author
+	author
 MODIFY
-  name VARCHAR(100) DEFAULT ''
+	name VARCHAR(100) DEFAULT ''
 ;

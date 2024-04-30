@@ -1,14 +1,14 @@
 DELETE FROM
-  books
+	books
 WHERE
-  isbn
+	isbn
 IN
 (
-  SELECT
-    isbn
-  FROM
-    rental
-  WHERE
-    returned = 9
+	SELECT
+		isbn
+	FROM
+		rental
+	WHERE
+		returned = 9
 )
 ;

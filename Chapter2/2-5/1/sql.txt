@@ -1,16 +1,16 @@
 SELECT 
-  answer1 AS 評価, 
-  answer2 AS 感想 
+	answer1 AS 評価, 
+	answer2 AS 感想 
 FROM 
-  quest
+	quest
 WHERE 
-  age > 
-    (
-      SELECT 
-        AVG(age) 
-      FROM 
-        quest
-    ) 
+	age > 
+	(
+		SELECT 
+			AVG(age) 
+		FROM 
+			quest
+	) 
 ORDER BY 
-  answer1 ASC
+	answer1 ASC
 ;

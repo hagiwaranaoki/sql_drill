@@ -1,7 +1,7 @@
 UPDATE
-  books
+	books
 SET
-  price = price * 0.9
+	price = price * 0.9
 WHERE
-  publish = '日経BP'
+	publish = '日経BP'
 ;

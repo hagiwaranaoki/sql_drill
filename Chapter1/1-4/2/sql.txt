@@ -1,9 +1,9 @@
 SELECT 
-  isbn, 
-  title, 
-  publish 
+	isbn, 
+	title, 
+	publish 
 FROM 
-  books 
+	books 
 WHERE 
-  publish IN ('日経BP','翔泳社')
+	publish IN ('日経BP','翔泳社')
 ;

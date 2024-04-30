@@ -1,8 +1,8 @@
 SELECT ALL 
-  class, 
-  depart_id 
+	class, 
+	depart_id 
 FROM 
-  employee
+	employee
 ;
 
 ・重複なしなので、「ALL」ではなく「DISTINCT」を使う
@@ -10,7 +10,7 @@ FROM
 
 正しくは
 SELECT DISTINCT 
-  class 
+	class 
 FROM 
-  employee
+	employee
 ;

@@ -1,14 +1,14 @@
 SELECT 
-  referer, 
-  COUNT(*) AS アクセス数 
+	referer, 
+	COUNT(*) AS アクセス数 
 FROM 
-  access_log 
+	access_log 
 WHERE 
-  access_date >= '2013-01-01' 
+	access_date >= '2013-01-01' 
 GROUP BY 
-  referer 
+	referer 
 HAVING 
-  count(*) < 5 
+	count(*) < 5 
 ORDER BY 
-  COUNT(*) DESC
+	COUNT(*) DESC
 ;

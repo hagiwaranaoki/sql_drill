@@ -1,10 +1,10 @@
 INSERT INTO
-  author
+	author
 VALUES
-  (
-    'l0001',
-    '井田健二',
-    'イダケンジ',
-    NULL
-  )
+	(
+		'l0001',
+		'井田健二',
+		'イダケンジ',
+		NULL
+	)
 ;

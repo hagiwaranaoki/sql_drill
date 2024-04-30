@@ -1,8 +1,8 @@
 SELECT 
-  p_name AS 商品名, 
-  price AS 価格 
+	p_name AS 商品名, 
+	price AS 価格 
 FROM 
-  product 
+	product 
 ORDER BY 
-  price ASC
+	price ASC
 ;

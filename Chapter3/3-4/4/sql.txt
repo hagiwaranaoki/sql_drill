@@ -1,5 +1,5 @@
 UPDATE
-  books
+	books
 SET
-  isbn = REPLACE(isbn, 'ISBN','')
+	isbn = REPLACE(isbn, 'ISBN','')
 ;

@@ -1,9 +1,9 @@
 SELECT 
-  CONCAT(u.l_name, u.f_name) AS 氏名
+	CONCAT(u.l_name, u.f_name) AS 氏名
 FROM 
-  usr u
+	usr u
 INNER JOIN 
-    quest q 
-  ON 
-    CONCAT(u.l_name, u.f_name) = q.name
+		quest q 
+	ON 
+		CONCAT(u.l_name, u.f_name) = q.name
 ;

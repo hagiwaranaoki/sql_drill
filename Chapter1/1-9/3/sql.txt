@@ -1,8 +1,8 @@
 SELECT 
-  s_id, 
-  SUM(s_value) 
+	s_id, 
+	SUM(s_value) 
 FROM 
-  sales 
+	sales 
 GROUP BY 
-  s_id
+	s_id
 ;

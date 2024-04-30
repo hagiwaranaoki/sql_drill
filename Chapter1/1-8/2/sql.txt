@@ -1,11 +1,11 @@
 SELECT 
-  name, 
-  answer1, 
-  answer2 
+	name, 
+	answer1, 
+	answer2 
 FROM 
-  quest 
+	quest 
 ORDER BY 
-  answered DESC 
+	answered DESC 
 LIMIT 
-  0, 10
+	0, 10
 ;

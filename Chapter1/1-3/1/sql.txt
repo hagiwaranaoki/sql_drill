@@ -1,5 +1,5 @@
 SELECT DISTINCT
-  prefecture 
+	prefecture 
 FROM 
-  quest
+	quest
 ;

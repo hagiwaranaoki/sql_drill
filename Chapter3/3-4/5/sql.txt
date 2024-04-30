@@ -1,5 +1,5 @@
 UPDATE
-  quest
+	quest
 SET
-  sex = REPLACE(sex,'姓','')
+	sex = REPLACE(sex,'姓','')
 ;

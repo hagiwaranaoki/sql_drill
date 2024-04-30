@@ -1,16 +1,16 @@
 SELECTS
-  title 
-  publish 
+	title 
+	publish 
 FROM 
-  books
+	books
 ;
 
 ・「SELECT」が「SELECTS」になっていること
 ・titleとpublishをつなぐカンマがないこと
 
 SELECT 
-  title, 
-  publish 
+	title, 
+	publish 
 FROM 
-  books
+	books
 ;

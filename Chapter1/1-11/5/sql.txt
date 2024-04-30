@@ -1,12 +1,12 @@
 SELECT 
-  depart_id, 
-  class, 
-  CONCAT('l_name', 'f_name') AS 氏名 
+	depart_id, 
+	class, 
+	CONCAT('l_name', 'f_name') AS 氏名 
 FROM 
-  employee 
+	employee 
 ORDER BY 
-  depart_id, 
-  class DESC
+	depart_id, 
+	class DESC
 ;
 
 ・CONCATの中のカラム名には''はいらない
@@ -14,12 +14,12 @@ ORDER BY
 
 正しくは
 SELECT 
-  depart_id, 
-  class, 
-  CONCAT(l_name, f_name) AS 氏名 
+	depart_id, 
+	class, 
+	CONCAT(l_name, f_name) AS 氏名 
 FROM 
-  employee 
+	employee 
 ORDER BY 
-  depart_id DESC, 
-  class DESC
+	depart_id DESC, 
+	class DESC
 ;

@@ -1,12 +1,12 @@
 SELECT 
-  publish AS 出版社, 
-  category_id, 
-  COUNT(*) AS 登録数 
+	publish AS 出版社, 
+	category_id, 
+	COUNT(*) AS 登録数 
 FROM 
-  books 
+	books 
 GROUP BY 
-  publish, 
-  category_id 
+	publish, 
+	category_id 
 HAVING 
-  COUNT(*) < 3
+	COUNT(*) < 3
 ;

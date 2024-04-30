@@ -1,12 +1,12 @@
 SELECT 
-  prefecture AS 都道府県, 
-  MAX(age) AS 最高年齢 
+	prefecture AS 都道府県, 
+	MAX(age) AS 最高年齢 
 FROM 
-  quest 
+	quest 
 WHERE 
-  sex = '男' 
+	sex = '男' 
 GROUP BY 
-  prefecture 
+	prefecture 
 HAVING 
-  MAX(age) > 60
+	MAX(age) > 60
 ;

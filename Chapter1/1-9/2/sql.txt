@@ -1,9 +1,9 @@
 SELECT 
-  prefecture, 
-  sex, 
-  AVG(answer1) 
+	prefecture, 
+	sex, 
+	AVG(answer1) 
 FROM 
-  quest 
+	quest 
 GROUP BY 
-  prefecture, sex
+	prefecture, sex
 ;

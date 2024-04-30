@@ -1,8 +1,8 @@
 SELECT 
-  publish, 
-  MAX(price) 
+	publish, 
+	MAX(price) 
 FROM 
-  books 
+	books 
 GROUP BY 
-  publish
+	publish
 ;

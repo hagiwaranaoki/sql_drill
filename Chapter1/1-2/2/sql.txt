@@ -1,6 +1,6 @@
 SELECT
-  p_name,
-  price 
+	p_name,
+	price 
 FROM 
-  product
+	product
 ;

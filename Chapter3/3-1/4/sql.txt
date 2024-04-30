@@ -1,22 +1,22 @@
 INSERT
-  product
+	product
 VALUES
-  (
-    SB00000001,
-    黒スタンプ,
-    1250
-  )
+	(
+		SB00000001,
+		黒スタンプ,
+		1250
+	)
 ;
 
 ・INSERTだけではなく、INSERT INTO
 ・VALUESで文字列がシングルクオートなしで渡されているので、シングルクオートで括る
 
 INSERT INTO
-  product
+	product
 VALUES
-  (
-    'SB00000001',
-    '黒スタンプ',
-    1250
-  )
+	(
+		'SB00000001',
+		'黒スタンプ',
+		1250
+	)
 ;

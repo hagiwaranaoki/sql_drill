@@ -1,8 +1,8 @@
 SELECT 
-  prefecture, 
-  ROUND(AVG(answer1)) AS 評価平均 
+	prefecture, 
+	ROUND(AVG(answer1)) AS 評価平均 
 FROM 
-  quest 
+	quest 
 GROUP BY 
-  prefecture
+	prefecture
 ;

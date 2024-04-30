@@ -1,16 +1,16 @@
 UPDATE
-  books
+	books
 SET
-  category_id='XXXXX'
+	category_id='XXXXX'
 WHERE
-  isbn
+	isbn
 IN
-  (
-    SELECT
-      isbn
-    FROM
-      rental
-    WHERE
-      returned=9
+	(
+	SELECT
+		isbn
+	FROM
+		rental
+	WHERE
+		returned=9
   )
 ;

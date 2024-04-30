@@ -1,6 +1,6 @@
 UPDATE
-  books
+	books
 SET
-  isbn = CONCAT('ISBN', isbn),
-  price = price/1.05
+	isbn = CONCAT('ISBN', isbn),
+	price = price/1.05
 ;

@@ -1,8 +1,8 @@
 SELECT 
-  prefecture AS 都道府県名, 
-  AVG(age) AS 平均年齢 
+	prefecture AS 都道府県名, 
+	AVG(age) AS 平均年齢 
 FROM 
-  quest 
+	quest 
 GROUP BY 
-  prefecture
+	prefecture
 ;

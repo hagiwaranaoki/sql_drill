@@ -1,8 +1,8 @@
 CREATE INDEX
-  ind_rental
+	ind_rental
 ON
-  rental
-  (
-    rental_date
-  )
+	rental
+	(
+		rental_date
+	)
 ;

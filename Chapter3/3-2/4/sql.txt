@@ -1,18 +1,18 @@
 INSERT INTO
-  employee
-  (
-    s_id
-    l_name
-    depart_id
-    last_update
-  )
+	employee
+	(
+		s_id
+		l_name
+		depart_id
+		last_update
+	)
 VALUE
-  (
-    'WA00001',
-    '和田',
-    'J01',
-    CURRENT_DATE
-  )
+	(
+		'WA00001',
+		'和田',
+		'J01',
+		CURRENT_DATE
+	)
 ;
 
 ・カラム名の後にカンマがない
@@ -20,18 +20,18 @@ VALUE
 
 正しくは
 INSERT INTO
-  employee
-  (
-    s_id,
-    l_name,
-    depart_id,
-    last_update
-  )
+	employee
+	(
+		s_id,
+		l_name,
+		depart_id,
+		last_update
+	)
 VALUES
-  (
-    'WA00001',
-    '和田',
-    'J01',
-    CURRENT_DATE
-  )
+	(
+		'WA00001',
+		'和田',
+		'J01',
+		CURRENT_DATE
+	)
 ;

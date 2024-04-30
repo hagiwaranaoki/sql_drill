@@ -1,11 +1,11 @@
 SELECT 
-  title 
-  publish 
-  price 
+	title 
+	publish 
+	price 
 FROM 
-  books 
+	books 
 WHERE 
-  price <= 5000
+	price <= 5000
 ;
 
 ・列をカンマで区切ってない
@@ -13,11 +13,11 @@ WHERE
 
 正しくは
 SELECT 
-  title, 
-  publish, 
-  price 
+	title, 
+	publish, 
+	price 
 FROM 
-  books 
+	books 
 WHERE 
-  price < 5000
+	price < 5000
 ;

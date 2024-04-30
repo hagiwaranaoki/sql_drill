@@ -1,14 +1,14 @@
 SELECT 
-  isbn, 
-  title 
+	isbn, 
+	title 
 FROM 
-  books 
+	books 
 WHERE 
-    publish='秀和システム' 
-  AND 
-    publish='日経BP' 
-  OR 
-    price < 3000
+		publish='秀和システム' 
+	AND 
+		publish='日経BP' 
+	OR 
+		price < 3000
 ;
 
 ・orとandが逆
@@ -16,12 +16,12 @@ WHERE
 
 正しくは
 SELECT 
-  isbn, 
-  title 
+	isbn, 
+	title 
 FROM 
-  books 
+	books 
 WHERE 
-    (publish='秀和システム' OR publish='日経BP') 
-  AND 
-    price < 3000
+		(publish='秀和システム' OR publish='日経BP') 
+	AND 
+		price < 3000
 ;

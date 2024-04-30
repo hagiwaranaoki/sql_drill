@@ -1,8 +1,8 @@
 CREATE INDEX
-  ind_product
+	ind_product
 ON
-  product
-  (
-    p_name
-  )
+	product
+	(
+		p_name
+	)
 ;

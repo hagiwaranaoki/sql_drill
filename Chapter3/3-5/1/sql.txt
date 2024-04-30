@@ -1,7 +1,7 @@
 UPDATE
-  books
+	books
 SET
-  publish = 'WINGS出版'
+	publish = 'WINGS出版'
 WHERE
-  publish = '山田出版'
+	publish = '山田出版'
 ;

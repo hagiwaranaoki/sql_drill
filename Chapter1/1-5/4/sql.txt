@@ -1,8 +1,8 @@
 SELECT 
-  l_name, 
-  f_name 
+	l_name, 
+	f_name 
 FROM 
-  employee 
+	employee 
 WHERE 
-  l_name_kana LIKE 'ア%'
+	l_name_kana LIKE 'ア%'
 ;
