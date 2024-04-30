@@ -6,5 +6,5 @@ FROM
 ORDER BY 
 	publish_date DESC 
 LIMIT 
-	5
+	2, 5
 ;
