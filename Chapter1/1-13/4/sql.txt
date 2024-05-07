@@ -1,6 +1,6 @@
 SELECT 
 	author_id AS 著者ID, 
-	COUNT(isbn), 
+	COUNT(isbn) AS カウント数, 
 	CASE 
 		WHEN COUNT(*) >= 4 THEN '多い' 
 		WHEN COUNT(*) >= 2 THEN '普通' 
