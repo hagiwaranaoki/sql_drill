@@ -7,7 +7,7 @@ FROM
 INNER JOIN 
 	usr AS u 
 ON 
-	r.user_id=r.user_id 
+	r.user_id=u.user_id 
 WHERE 
 	r.returned=0 
 GROUP BY 
