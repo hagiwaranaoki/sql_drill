@@ -5,5 +5,6 @@ FROM
 WHERE 
 		sex = '女' 
 	AND 
+		-- 歳が20~29の間
 		age BETWEEN 20 AND 29
 ;

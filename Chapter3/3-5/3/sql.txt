@@ -1,6 +1,7 @@
 UPDATE
 	books
 SET
+	-- 価格を10%オフにする
 	price = price * 0.9
 WHERE
 	publish = '日経BP'

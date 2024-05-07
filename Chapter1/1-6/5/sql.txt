@@ -27,5 +27,6 @@ WHERE
 			publish='日経BP'
 		) 
 	AND 
+		-- 価格が3000円未満
 		price < 3000
 ;

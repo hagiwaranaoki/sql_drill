@@ -4,5 +4,6 @@ SELECT
 FROM 
 	quest 
 WHERE 
+	-- 20歳以上
 	age >= 20
 ;

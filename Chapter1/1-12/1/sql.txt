@@ -6,7 +6,9 @@ FROM
 GROUP BY 
 	prefecture 
 HAVING 
+		-- 35歳以上
 		AVG(age) >= 35 
 	AND 
+		-- 50歳未満
 		AVG(age) < 50
 ;

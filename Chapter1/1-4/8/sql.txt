@@ -19,5 +19,6 @@ SELECT
 FROM 
 	books 
 WHERE 
+	-- 価格が5000未満
 	price < 5000
 ;

@@ -25,5 +25,6 @@ UNION
 	FROM 
 		usr AS u
 ORDER BY 
+	-- 1列目でソートして降順取り出し
 	1 DESC
 ;

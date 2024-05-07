@@ -21,9 +21,11 @@ SELECT
 FROM 
 	employee 
 WHERE 
+	-- 性別が女
 	sex = 2 
 GROUP BY 
 	depart_id 
 HAVING 
+	-- 3人以上の部署
 	COUNT(*) >= 3
 ;

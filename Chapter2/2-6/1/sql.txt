@@ -10,7 +10,9 @@ UNION ALL
 	FROM 
 		employee AS e 
 	WHERE 
-	e.sex=2 
+		-- 性別が女
+		e.sex=2 
 ORDER BY 
+	-- 昇順取り出し
 	1 ASC
 ;

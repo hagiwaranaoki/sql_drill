@@ -7,5 +7,6 @@ FROM
 ORDER BY 
 	rental_date ASC 
 LIMIT 
+	-- 先頭から5件取り出し
 	5
 ;

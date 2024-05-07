@@ -12,5 +12,6 @@ UNION
 	WHERE 
 		q.prefecture='千葉県' 
 ORDER BY 
+	-- 降順取り出し
 	1 DESC
 ;

@@ -4,6 +4,7 @@ SELECT
 FROM 
 	rental 
 WHERE 
+	-- 未返却の書籍を表す
 	returned = 0 
 ORDER BY 
 	rental_date ASC

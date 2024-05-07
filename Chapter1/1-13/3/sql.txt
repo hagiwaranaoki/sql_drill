@@ -2,7 +2,9 @@ SELECT
 	referer AS リンク元, 
 	COUNT(*), 
 	CASE 
+		-- アクセス数が10件未満
 		WHEN COUNT(*) < 10 THEN 'C' 
+		-- アクセス数が10件以上50件未満
 		WHEN COUNT(*)>=10 AND COUNT(*)<50 THEN 'B' 
 		ELSE 'A' 
 	END AS ランク 
@@ -11,6 +13,7 @@ FROM
 GROUP BY 
 	referer 
 HAVING 
+	-- アクセス数が3件以上
 	COUNT(*)>=3 
 ORDER BY 
 	COUNT(*) DESC

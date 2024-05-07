@@ -1,5 +1,6 @@
 UPDATE
 	product
 SET
+	-- 価格を10%値上げ
 	price = price * 1.1
 ;

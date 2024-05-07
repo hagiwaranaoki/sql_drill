@@ -4,6 +4,7 @@ SELECT
 FROM 
 	books 
 WHERE 
+	-- 価格が2500~3500の間
 	price BETWEEN 2500 AND 3500 
 ORDER BY 
 	price ASC

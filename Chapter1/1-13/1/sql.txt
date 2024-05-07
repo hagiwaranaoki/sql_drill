@@ -2,8 +2,11 @@ SELECT
 	name AS 氏名, 
 	CASE 
 		answer1 
+		-- 評価が3の場合
 		WHEN 3 THEN 'ためになった' 
+		-- 評価が2の場合
 		WHEN 2 THEN '普通' 
+		-- 評価が3の場合
 		WHEN 1 THEN '役に立たない' 
 		ELSE '' 
 	END AS 評価, 

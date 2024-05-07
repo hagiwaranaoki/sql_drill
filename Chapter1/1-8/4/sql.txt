@@ -23,5 +23,6 @@ FROM
 ORDER BY 
 	access_date DESC 
 LIMIT 
+	-- 先頭から10件取り出し
 	0, 10
 ;

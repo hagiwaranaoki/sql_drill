@@ -5,5 +5,6 @@ SELECT
 FROM 
 	quest 
 WHERE 
+	-- 歳が30~39の間
 	age BETWEEN 30 AND 39
 ;

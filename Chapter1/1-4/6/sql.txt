@@ -4,5 +4,6 @@ SELECT
 FROM 
 	rental 
 WHERE 
+	-- 貸出中
 	returned=0
 ;

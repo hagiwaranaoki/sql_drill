@@ -6,5 +6,6 @@ FROM
 GROUP BY 
 	author_id 
 HAVING 
+	-- 書籍数が3以上
 	COUNT(isbn) >= 3
 ;

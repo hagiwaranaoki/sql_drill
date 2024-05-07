@@ -6,5 +6,6 @@ FROM
 ORDER BY 
 	publish_date DESC 
 LIMIT 
+	-- 3件目から5件目を出力
 	2, 5
 ;

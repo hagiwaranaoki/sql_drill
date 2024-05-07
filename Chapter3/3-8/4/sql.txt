@@ -9,6 +9,7 @@ IN
 	FROM
 		rental
 	WHERE
+		-- 紛失した書籍
 		returned = 9
 )
 ;

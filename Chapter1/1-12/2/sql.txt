@@ -8,5 +8,6 @@ WHERE
 GROUP BY 
 	prefecture 
 HAVING 
+	-- 60歳未満
 	MAX(age) > 60
 ;

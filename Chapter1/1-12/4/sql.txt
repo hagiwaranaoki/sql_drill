@@ -8,5 +8,6 @@ GROUP BY
 	publish, 
 	category_id 
 HAVING 
+	-- 登録数が3冊未満
 	COUNT(*) < 3
 ;
