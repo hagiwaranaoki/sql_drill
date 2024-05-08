@@ -4,9 +4,9 @@ SELECT
 FROM 
 	depart AS d 
 LEFT JOIN 
-	employee AS e 
-ON 
-	d.depart_id=e.depart_id 
+		employee AS e 
+	ON 
+		d.depart_id=e.depart_id 
 WHERE 
 	e.depart_id IS NULL
 ;

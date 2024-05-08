@@ -4,9 +4,9 @@ SELECT
 FROM 
 	sales AS sl 
 INNER JOIN 
-	shop AS sh 
-ON 
-	sl.s_id=sh.s_id 
+		shop AS sh 
+	ON 
+		sl.s_id=sh.s_id 
 WHERE 
 	sl.s_date BETWEEN '2012-01' AND '2012-12' 
 GROUP BY 

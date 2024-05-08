@@ -1,9 +1,9 @@
 INSERT INTO
 	rental
 	(
-	user_id,
-	isbn,
-	rental_date
+		user_id,
+		isbn,
+		rental_date
 	)
 VALUES
 	(

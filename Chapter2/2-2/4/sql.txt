@@ -5,9 +5,9 @@ SELECT
 FROM 
 	employee AS e 
 LEFT JOIN 
-	time_card AS t 
-ON 
-	e.s_id=t.s_id 
+		time_card AS t 
+	ON 
+		e.s_id=t.s_id 
 GROUP BY 
 	t.s_id, 
 	e.l_name, 

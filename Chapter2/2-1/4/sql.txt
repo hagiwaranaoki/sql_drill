@@ -5,9 +5,9 @@ SELECT
 FROM 
 	rental AS r 
 INNER JOIN 
-	usr AS u 
-ON 
-	r.user_id=u.user_id 
+		usr AS u 
+	ON 
+		r.user_id=u.user_id 
 WHERE 
 	-- 貸出中の本
 	r.returned=0 

@@ -10,14 +10,14 @@ FROM
 		(
 			order_main AS o 
 		INNER JOIN 
-			order_desc AS od 
-		ON 
-			o.po_id = od.po_id
+				order_desc AS od 
+			ON 
+				o.po_id = od.po_id
 		) 
 	INNER JOIN 
-		product AS p 
-	ON 
-		od.p_id = p.p_id
+			product AS p 
+		ON 
+			od.p_id = p.p_id
 	)
 INNER JOIN 
 		usr AS u 

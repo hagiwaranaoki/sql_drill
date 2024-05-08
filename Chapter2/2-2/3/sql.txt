@@ -4,9 +4,9 @@ SELECT
 FROM 
 	books AS b 
 LEFT JOIN 
-	rental AS r 
-ON 
-	b.isbn=r.isbn 
+		rental AS r 
+	ON 
+		b.isbn=r.isbn 
 GROUP BY 
 	b.isbn, 
 	b.title 
