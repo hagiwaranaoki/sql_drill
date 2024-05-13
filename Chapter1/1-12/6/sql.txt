@@ -8,7 +8,7 @@ WHERE
 GROUP BY 
 	referer 
 HAVING 
-	--アクセス数5件未満
+	-- アクセス数5件未満
 	COUNT(*) < 5 
 ORDER BY 
 	COUNT(*) DESC
