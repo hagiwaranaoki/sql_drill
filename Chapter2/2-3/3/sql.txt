@@ -4,9 +4,9 @@ SELECT
 FROM 
 	employee AS ea 
 LEFT JOIN 
-		employee AS eb 
-	ON 
-		ea.b_id=eb.s_id 
+	employee AS eb 
+ON 
+	ea.b_id=eb.s_id 
 ORDER BY 
 	ea.s_id ASC
 ;

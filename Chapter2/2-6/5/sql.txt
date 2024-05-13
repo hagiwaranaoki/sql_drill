@@ -3,7 +3,7 @@ SELECT
 FROM 
 	usr u
 INNER JOIN 
-		quest q 
-	ON 
-		CONCAT(u.l_name, u.f_name) = q.name
+	quest q 
+ON 
+	CONCAT(u.l_name, u.f_name) = q.name
 ;

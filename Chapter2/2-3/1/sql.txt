@@ -4,9 +4,9 @@ SELECT
 FROM 
 	contents AS cp 
 INNER JOIN 
-		contents AS cn 
-	ON 
-		cp.next_id = cn.c_id 
+	contents AS cn 
+ON 
+	cp.next_id = cn.c_id 
 ORDER BY 
 	cn.c_id ASC
 ;
