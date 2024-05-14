@@ -1,8 +1,8 @@
 	SELECT 
-		u.l_name || u.f_name 
+		CONCAT(u.l_name, u.f_name) AS 氏名 
 	FROM 
 		usr AS u 
-EXCEPT 
+EXCEPT
 	SELECT 
 		q.name 
 	FROM 
