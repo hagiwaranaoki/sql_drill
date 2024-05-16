@@ -1,2 +1,0 @@
-Query OK, 7 rows affected (0.005 sec)
-Rows matched: 7  Changed: 7  Warnings: 0

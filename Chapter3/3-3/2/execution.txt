@@ -1,2 +1,0 @@
-Query OK, 5 rows affected (0.029 sec)
-Records: 5  Duplicates: 0  Warnings: 0
