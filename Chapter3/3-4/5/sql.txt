@@ -1,5 +1,15 @@
+UPDATE INTO
+	quest
+VALUES
+	sex = REPLACE(sex,'性','')
+;
+
+・UPDATE INTOではなく、UPDATE
+・VALUESではなく、SET
+
+正しくは
 UPDATE
 	quest
 SET
-	sex = REPLACE(sex,'姓','')
+	sex = REPLACE(sex,'性','')
 ;

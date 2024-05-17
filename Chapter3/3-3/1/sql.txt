@@ -5,17 +5,17 @@ INSERT INTO
 		r_date,
 		work_time
 	)
-	SELECT
-		s_id,
-		CURRENT_DATE,
-		0
-	FROM
-		employee
-	WHERE
-		class IN
-		(
-			'主任',
-			'担当',
-			'アシスタント'
-		)
+SELECT
+	s_id,
+	CURRENT_DATE,
+	0
+FROM
+	employee
+WHERE
+	class IN
+	(
+		'主任',
+		'担当',
+		'アシスタント'
+	)
 ;
