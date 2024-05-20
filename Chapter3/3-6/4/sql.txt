@@ -11,6 +11,7 @@ IN
 		FROM
 			rental
 		WHERE
+			-- returned列が紛失のもの
 			returned=9
   	)
 ;
