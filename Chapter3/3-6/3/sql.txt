@@ -1,7 +1,9 @@
 UPDATE
 	books
 SET
-	title = CONCAT(
+		title
+	= 
+		CONCAT(
 			title, 
 			(
 				SELECT 
@@ -11,5 +13,5 @@ SET
 				WHERE 
 					category.category_id = books.category_id
 			)
-	)
+		)
 ;
