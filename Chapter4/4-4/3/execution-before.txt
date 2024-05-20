@@ -1,7 +1,7 @@
 +-----------+--------------+------+-----+---------+-------+
 | Field     | Type         | Null | Key | Default | Extra |
 +-----------+--------------+------+-----+---------+-------+
-| author_id | char(5)      | NO   | PRI | NULL    |       |
+| author_id | char(5)      | NO   | PRI |         |       |
 | name      | varchar(30)  | YES  |     | NULL    |       |
 | name_kana | varchar(100) | YES  |     | NULL    |       |
 | birth     | date         | YES  |     | NULL    |       |
